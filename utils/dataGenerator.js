@@ -1,5 +1,5 @@
 // utils/dataGenerator.js
-const faker = require('faker');
+const { faker } = require('@faker-js/faker');
 const fs = require('fs');
 
 const generateTestData = () => {
